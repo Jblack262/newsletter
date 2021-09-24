@@ -1,9 +1,10 @@
-import React from 'react'
+import React from 'react';
+import HexGrid from '../components/HexGrid'
 
-function Home() {
+function Home({setNewStudent}) {
     return (
-        <div>
-            <h1>Home Page</h1>
+        <div className="home">
+            <HexGrid setNewStudent={setNewStudent}/>
         </div>
     )
 }
