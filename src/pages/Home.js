@@ -4,7 +4,9 @@ import HexGrid from '../components/HexGrid'
 function Home({setNewStudent}) {
     return (
         <div className="home">
-            <HexGrid setNewStudent={setNewStudent}/>
+            <div className="hexContainer">
+                <HexGrid setNewStudent={setNewStudent}/>
+            </div>
         </div>
     )
 }
